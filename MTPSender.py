@@ -25,31 +25,30 @@ def extract_packet_info(packet):
     return packet_type, seq_num, length, checksum, data
 
 
-def receive_thread(socket):
+def receive_thread(socket, log_file, log_buffer):
     while True:
         packet, addr = unreliable_channel.recv_packet(socket)
         packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
         if packet_type == 1:  # If ACK packet
             print(f"Received ACK; seqNum={seq_num}")
-            # Implement ACK handling
-            pass
+            log_msg = f"Packet received; type=ACK; seqNum={seq_num}; length=16; checksum_in_packet={checksum}; status=NOT_CORRUPT\n"
+            log_buffer.append(log_msg)
+            flush_log(log_file, log_buffer)
 
 
 # Define a function to periodically flush the log buffer to the file
 def flush_log(log_file, log_buffer):
     with open(log_file, 'a') as log:
-        while True:
+        while log_buffer:
+            log.writelines(log_buffer)
+            log_buffer.clear()
             time.sleep(1)  # Adjust the sleep duration as needed
-            if log_buffer:
-                log.writelines(log_buffer)
-                log.flush()  # Flush the buffer to update the log file
-                log_buffer.clear()
 
 
 def main():
     # Read command line arguments
     receiver_ip = "127.0.0.1"  # For testing on localhost
-    receiver_port = 12345
+    receiver_port = 65535
     window_size = 10
     input_file = "1MB.txt"
     log_file = "sender-log.txt"
@@ -60,12 +59,8 @@ def main():
     client_socket.bind(('0.0.0.0', 0))
 
     # Start receive thread
-    recv_thread = threading.Thread(target=receive_thread, args=(client_socket,))
+    recv_thread = threading.Thread(target=receive_thread, args=(client_socket, log_file, log_buffer))
     recv_thread.start()
-
-    # Start the log flushing thread
-    log_flush_thread = threading.Thread(target=flush_log, args=(log_file, log_buffer))
-    log_flush_thread.start()
 
     # Read input file and split into packets
     with open(input_file, 'r') as file:
@@ -80,9 +75,10 @@ def main():
             while next_seq_number < window_base + window_size and next_seq_number < len(lines):
                 packet = create_packet(0, next_seq_number, lines[next_seq_number].encode())  # Encode to bytes
                 unreliable_channel.send_packet(client_socket, packet, (receiver_ip, receiver_port))
+                print(f"Sent packet; seqNum={next_seq_number}")
                 log_msg = f"Packet sent; type=DATA; seqNum={next_seq_number}; length=1472; checksum=62c0c6a2\n"
-                print(log_msg)
                 log_buffer.append(log_msg)
+                flush_log(log_file, log_buffer)  # Flush log buffer after adding a log message
                 next_seq_number += 1
             lock.release()
             time.sleep(0.01)  # Adjust sleep time as needed

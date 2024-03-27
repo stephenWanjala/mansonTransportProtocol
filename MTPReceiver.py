@@ -23,20 +23,29 @@ def extract_packet_info(packet):
     return packet_type, seq_num, length, checksum, data
 
 
+def receive_thread(socket, log_file, log_buffer):
+    while True:
+        packet, addr = unreliable_channel.recv_packet(socket)
+        packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
+        if packet_type == 1:  # If ACK packet
+            print(f"Received ACK; seqNum={seq_num}")
+            log_msg = f"Packet received; type=ACK; seqNum={seq_num}; length=16; checksum_in_packet={checksum}; status=NOT_CORRUPT\n"
+            log_buffer.append(log_msg)
+            flush_log(log_file, log_buffer)
+
+
 # Define a function to periodically flush the log buffer to the file
 def flush_log(log_file, log_buffer):
     with open(log_file, 'a') as log:
-        while True:
+        while log_buffer:
+            log.writelines(log_buffer)
+            log_buffer.clear()
             time.sleep(1)  # Adjust the sleep duration as needed
-            if log_buffer:
-                log.writelines(log_buffer)
-                log_buffer.clear()
 
 
 def main():
     # Read command line arguments
-    receiver_port = 12345
-    output_file = "output.txt"
+    receiver_port = 65535
     log_file = "receiver-log.txt"
     log_buffer = []
 
@@ -44,9 +53,9 @@ def main():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server_socket.bind(('0.0.0.0', receiver_port))
 
-    # Start log flushing thread
-    log_flush_thread = threading.Thread(target=flush_log, args=(log_file, log_buffer))
-    log_flush_thread.start()
+    # Start receive thread
+    recv_thread = threading.Thread(target=receive_thread, args=(server_socket, log_file, log_buffer))
+    recv_thread.start()
 
     # Open log file in append mode
     with open(log_file, 'a') as log:
@@ -55,15 +64,8 @@ def main():
             packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
             if packet_type == 0:  # If DATA packet
                 print(f"Received DATA packet; seqNum={seq_num}")
-                log_msg = f"Packet received; type=DATA; seqNum={seq_num}; length=1472; checksum=62c0c6a2; status=NOT_CORRUPT\n"
-                log_buffer.append(log_msg)
-                # Write data to output file
-                with open(output_file, 'a') as output:
-                    output.write(data.decode())  # Decode bytes to string
-            elif packet_type == 1:  # If ACK packet
-                print(f"Received ACK packet; seqNum={seq_num}")
-                log_msg = f"Packet received; type=ACK; seqNum={seq_num}; length=16; checksum_in_packet=a8d38e02; checksum_calculated=a7d2bb01; status=CORRUPT;\n"
-                log_buffer.append(log_msg)
+                log.write(
+                    f"Packet received; type=DATA; seqNum={seq_num}; length=1472; checksum=62c0c6a2; status=NOT_CORRUPT\n")
 
 
 if __name__ == "__main__":
