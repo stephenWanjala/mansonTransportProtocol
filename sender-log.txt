@@ -1,0 +1,602 @@
+Packet sent; type=DATA; seqNum=0; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=1; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=0; length=16; checksum_in_packet=1823396396; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=2; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=3; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=1; length=16; checksum_in_packet=1372519324; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=4; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=5; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=2; length=16; checksum_in_packet=376340812; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=6; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=7; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=3; length=16; checksum_in_packet=722381052; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=8; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=9; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=4; length=16; checksum_in_packet=2569958636; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=10; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=5; length=16; checksum_in_packet=2756599132; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=11; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=12; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=6; length=16; checksum_in_packet=3824035724; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=13; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=14; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=7; length=16; checksum_in_packet=3733851708; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=15; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=16; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=8; length=16; checksum_in_packet=1558092269; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=17; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=18; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=9; length=16; checksum_in_packet=1639886941; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=19; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=20; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=10; length=16; checksum_in_packet=639552141; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=21; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=22; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=11; length=16; checksum_in_packet=461300541; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=23; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=24; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=12; length=16; checksum_in_packet=2841526061; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=25; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=26; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=13; length=16; checksum_in_packet=2487096989; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=27; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=28; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=14; length=16; checksum_in_packet=3550374989; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=29; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=30; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=15; length=16; checksum_in_packet=4009641469; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=31; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=32; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=16; length=16; checksum_in_packet=206456238; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=33; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=34; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=17; length=16; checksum_in_packet=825125918; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=35; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=36; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=18; length=16; checksum_in_packet=1989023438; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=37; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=38; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=19; length=16; checksum_in_packet=1273905022; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=39; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=40; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=20; length=16; checksum_in_packet=4191085422; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=41; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=42; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=21; length=16; checksum_in_packet=3299789534; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=43; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=44; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=22; length=16; checksum_in_packet=2198777870; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=45; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=46; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=23; length=16; checksum_in_packet=3194919358; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=47; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=48; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=24; length=16; checksum_in_packet=1010699887; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=49; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=50; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=25; length=16; checksum_in_packet=22947807; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=51; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=52; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=26; length=16; checksum_in_packet=1191075087; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=53; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=54; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=27; length=16; checksum_in_packet=2073982143; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=55; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=56; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=28; length=16; checksum_in_packet=3384715439; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=57; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=58; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=29; length=16; checksum_in_packet=4108222751; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=59; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=60; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=30; length=16; checksum_in_packet=3011443663; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=61; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=62; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=31; length=16; checksum_in_packet=2384384639; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=63; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=64; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=65; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=66; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=33; length=16; checksum_in_packet=2416956568; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=67; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=68; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=34; length=16; checksum_in_packet=3618614856; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=69; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=70; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=35; length=16; checksum_in_packet=3939469304; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=71; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=72; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=36; length=16; checksum_in_packet=1492081640; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=73; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=74; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=37; length=16; checksum_in_packet=1703899736; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=75; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=76; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=38; length=16; checksum_in_packet=573507720; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=77; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=78; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=39; length=16; checksum_in_packet=525279544; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=79; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=80; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=40; length=16; checksum_in_packet=2636101353; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=81; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=82; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=41; length=16; checksum_in_packet=2692718425; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=83; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=84; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=42; length=16; checksum_in_packet=3890210185; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=85; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=86; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=43; length=16; checksum_in_packet=3670002745; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=87; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=88; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=44; length=16; checksum_in_packet=1755254825; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=89; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=90; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=45; length=16; checksum_in_packet=1442789785; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=91; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=92; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=46; length=16; checksum_in_packet=308233033; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=93; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=94; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=47; length=16; checksum_in_packet=792685305; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=95; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=96; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=48; length=16; checksum_in_packet=3448728234; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=97; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=98; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=99; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=100; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=50; length=16; checksum_in_packet=3075422666; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=101; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=102; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=51; length=16; checksum_in_packet=2318340218; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=103; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=104; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=52; length=16; checksum_in_packet=940559466; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=105; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=106; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=107; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=108; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=54; length=16; checksum_in_packet=1120902922; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=109; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=110; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=55; length=16; checksum_in_packet=2142222010; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=111; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=112; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=56; length=16; checksum_in_packet=4261355883; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=113; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=114; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=57; length=16; checksum_in_packet=3231647963; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=115; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=116; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=58; length=16; checksum_in_packet=2269082123; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=117; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=118; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=59; length=16; checksum_in_packet=3126811579; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=119; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=120; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=60; length=16; checksum_in_packet=142575531; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=121; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=122; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=61; length=16; checksum_in_packet=891268635; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=123; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=124; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=62; length=16; checksum_in_packet=1925174475; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=125; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=126; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=63; length=16; checksum_in_packet=1340079483; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=127; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=128; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=64; length=16; checksum_in_packet=878545509; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=129; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=130; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=65; length=16; checksum_in_packet=155034581; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=131; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=132; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=66; length=16; checksum_in_packet=1318967557; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=133; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=134; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=67; length=16; checksum_in_packet=1946022069; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=135; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=136; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=137; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=138; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=69; length=16; checksum_in_packet=4240246037; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=139; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=140; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=70; length=16; checksum_in_packet=3139272645; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=141; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=142; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=71; length=16; checksum_in_packet=2256361077; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=143; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=144; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=72; length=16; checksum_in_packet=70107556; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=145; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=146; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=73; length=16; checksum_in_packet=961406996; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=147; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=148; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=74; length=16; checksum_in_packet=2129498820; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=149; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=150; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=75; length=16; checksum_in_packet=1133362036; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=151; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=152; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=76; length=16; checksum_in_packet=4054673252; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=153; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=154; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=77; length=16; checksum_in_packet=3436007124; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=155; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=156; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=78; length=16; checksum_in_packet=2339189764; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=157; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=158; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=79; length=16; checksum_in_packet=3054312884; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=159; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=160; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=80; length=16; checksum_in_packet=1421680103; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=161; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=162; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=81; length=16; checksum_in_packet=1776104535; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=163; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=164; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=82; length=16; checksum_in_packet=779964039; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=165; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=166; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=83; length=16; checksum_in_packet=320694071; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=167; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=168; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=84; length=16; checksum_in_packet=2705177383; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=169; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=170; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=85; length=16; checksum_in_packet=2623378071; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=171; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=172; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=86; length=16; checksum_in_packet=3690850375; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=173; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=174; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=88; length=16; checksum_in_packet=1691178534; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=175; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=176; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=89; length=16; checksum_in_packet=1504542614; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=177; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=178; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=90; length=16; checksum_in_packet=504169798; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=179; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=180; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=91; length=16; checksum_in_packet=594357494; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=181; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=182; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=93; length=16; checksum_in_packet=2888685910; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=183; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=184; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=94; length=16; checksum_in_packet=3951928198; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=185; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=186; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=95; length=16; checksum_in_packet=3605891638; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=187; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=188; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=96; length=16; checksum_in_packet=4120683873; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=189; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=190; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=97; length=16; checksum_in_packet=3371994321; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=191; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=192; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=99; length=16; checksum_in_packet=2990333873; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=193; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=194; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=100; length=16; checksum_in_packet=1835937; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=195; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=196; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=102; length=16; checksum_in_packet=2061258945; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=197; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=198; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=103; length=16; checksum_in_packet=1203534193; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=199; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=200; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=105; length=16; checksum_in_packet=4169975568; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=201; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=202; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=106; length=16; checksum_in_packet=3207380416; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=203; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=204; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=107; length=16; checksum_in_packet=2186056816; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=205; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=206; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=108; length=16; checksum_in_packet=812402784; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=207; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=208; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=109; length=16; checksum_in_packet=218915280; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=209; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=210; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=110; length=16; checksum_in_packet=1252793088; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=211; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=212; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=111; length=16; checksum_in_packet=2009871024; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=213; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=214; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=112; length=16; checksum_in_packet=2507944675; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=215; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=216; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=113; length=16; checksum_in_packet=2820414291; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=217; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=218; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=114; length=16; checksum_in_packet=4022100355; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=219; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=220; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=115; length=16; checksum_in_packet=3537651763; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=221; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=222; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=116; length=16; checksum_in_packet=1627165731; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=223; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=224; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=117; length=16; checksum_in_packet=1570553235; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=225; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=226; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=118; length=16; checksum_in_packet=440190787; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=227; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=228; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=119; length=16; checksum_in_packet=660401907; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=229; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=230; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=120; length=16; checksum_in_packet=2769058082; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=231; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=232; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=233; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=234; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=122; length=16; checksum_in_packet=3754699330; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=235; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=236; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=123; length=16; checksum_in_packet=3802924018; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=237; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=238; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=124; length=16; checksum_in_packet=1351409634; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=239; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=240; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=125; length=16; checksum_in_packet=1844246098; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=241; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=242; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=127; length=16; checksum_in_packet=388801842; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=243; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=244; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=128; length=16; checksum_in_packet=3712508606; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=245; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=246; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=129; length=16; checksum_in_packet=3760737038; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=247; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=248; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=130; length=16; checksum_in_packet=2810720734; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=249; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=250; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=131; length=16; checksum_in_packet=2598901870; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=251; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=252; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=132; length=16; checksum_in_packet=684246142; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=253; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=254; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=133; length=16; checksum_in_packet=363392462; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=255; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=256; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=134; length=16; checksum_in_packet=1376294686; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=257; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=258; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=135; length=16; checksum_in_packet=1869135534; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=259; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=260; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=137; length=16; checksum_in_packet=3495428303; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=261; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=262; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=138; length=16; checksum_in_packet=2549643807; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=263; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=264; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=139; length=16; checksum_in_packet=2862109615; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=265; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=266; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=140; length=16; checksum_in_packet=414748607; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=267; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=268; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=141; length=16; checksum_in_packet=634955279; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=269; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=270; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=142; length=16; checksum_in_packet=1652088031; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=271; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=272; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=144; length=16; checksum_in_packet=3181966652; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=273; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=274; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=145; length=16; checksum_in_packet=2160647308; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=275; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=276; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=146; length=16; checksum_in_packet=3345524316; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=277; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=278; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=148; length=16; checksum_in_packet=1210602492; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=279; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=280; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=149; length=16; checksum_in_packet=1967684172; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=281; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=282; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=151; length=16; checksum_in_packet=260581676; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=283; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=284; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=152; length=16; checksum_in_packet=2379792125; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=285; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=286; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=153; length=16; checksum_in_packet=2964887373; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=287; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=288; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=154; length=16; checksum_in_packet=4145606045; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=289; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=290; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=155; length=16; checksum_in_packet=3396912173; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=291; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=292; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=156; length=16; checksum_in_packet=2019039293; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=293; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=294; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=157; length=16; checksum_in_packet=1161310605; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=295; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=296; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=158; length=16; checksum_in_packet=43535197; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=297; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=298; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=159; length=16; checksum_in_packet=1073242861; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=299; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=300; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=160; length=16; checksum_in_packet=478760378; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=301; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=302; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=161; length=16; checksum_in_packet=568943626; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=303; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=304; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=162; length=16; checksum_in_packet=1716068058; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=305; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=306; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=163; length=16; checksum_in_packet=1529427818; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=307; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=308; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=164; length=16; checksum_in_packet=3909741434; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=309; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=310; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=165; length=16; checksum_in_packet=3563700938; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=311; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=312; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=166; length=16; checksum_in_packet=2479470618; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=313; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=314; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=167; length=16; checksum_in_packet=2930348458; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=315; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=316; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=168; length=16; checksum_in_packet=754517627; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=317; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=318; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=319; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=320; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=170; length=16; checksum_in_packet=1446597915; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=321; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=322; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=171; length=16; checksum_in_packet=1801026731; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=323; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=324; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=172; length=16; checksum_in_packet=3648626875; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=325; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=326; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=173; length=16; checksum_in_packet=3826878731; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=327; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=328; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=174; length=16; checksum_in_packet=2746872795; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=329; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=330; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=175; length=16; checksum_in_packet=2665077355; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=331; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=332; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=178; length=16; checksum_in_packet=111774040; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=333; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=334; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=180; length=16; checksum_in_packet=2313780472; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=335; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=336; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=181; length=16; checksum_in_packet=3028899144; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=337; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=338; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=182; length=16; checksum_in_packet=4079562648; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=339; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=340; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=183; length=16; checksum_in_packet=3460892200; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=341; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=342; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=184; length=16; checksum_in_packet=1276744185; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=343; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=344; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=185; length=16; checksum_in_packet=1903802441; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=345; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=346; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=186; length=16; checksum_in_packet=920240793; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=347; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=348; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=187; length=16; checksum_in_packet=196733737; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=349; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=350; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=188; length=16; checksum_in_packet=3113826105; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=351; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=352; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=189; length=16; checksum_in_packet=2230918793; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=353; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=354; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=190; length=16; checksum_in_packet=3277415513; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=355; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=356; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=191; length=16; checksum_in_packet=4265168361; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=357; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=358; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=192; length=16; checksum_in_packet=2243640055; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=359; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=360; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=193; length=16; checksum_in_packet=3101365063; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=361; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=362; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=194; length=16; checksum_in_packet=4286278039; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=363; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=364; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=195; length=16; checksum_in_packet=3256565799; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=365; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=366; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=196; length=16; checksum_in_packet=1882954807; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=367; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=368; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=197; length=16; checksum_in_packet=1297855879; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=369; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=370; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=198; length=16; checksum_in_packet=184274775; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=371; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=372; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=199; length=16; checksum_in_packet=932964071; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=373; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=374; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=200; length=16; checksum_in_packet=3050008886; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=375; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=376; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=201; length=16; checksum_in_packet=2292930694; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=377; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=378; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=202; length=16; checksum_in_packet=3473613398; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=379; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=380; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=381; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=382; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=205; length=16; checksum_in_packet=2100035142; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=383; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=384; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=206; length=16; checksum_in_packet=982221974; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=385; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=386; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=207; length=16; checksum_in_packet=132885798; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=387; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=388; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=208; length=16; checksum_in_packet=3847990645; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=389; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=390; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=209; length=16; checksum_in_packet=3627779269; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=391; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=392; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=210; length=16; checksum_in_packet=2677800469; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=393; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=394; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=211; length=16; checksum_in_packet=2734413733; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=395; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=396; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=212; length=16; checksum_in_packet=282790837; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=397; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=398; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=213; length=16; checksum_in_packet=767238661; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=399; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=400; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=214; length=16; checksum_in_packet=1780177109; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=401; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=402; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=215; length=16; checksum_in_packet=1467707749; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=403; length=1472; checksum=62c0c6a2
+Packet sent; type=DATA; seqNum=404; length=1472; checksum=62c0c6a2
+Packet received; type=ACK; seqNum=216; length=16; checksum_in_packet=3576424116; status=NOT_CORRUPT
+Packet sent; type=DATA; seqNum=405; length=1472; checksum=62c0c6a2
