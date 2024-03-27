@@ -30,7 +30,7 @@ def receive_thread(socket, log_file, log_buffer):
         packet, addr = unreliable_channel.recv_packet(socket)
         packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
         if packet_type == 1:  # If ACK packet
-            print(f"Received ACK; seqNum={seq_num}")
+            print(f"Received ACK; seqNum={seq_num}  length=16; checksum_in_packet={checksum}")
             log_msg = f"Packet received; type=ACK; seqNum={seq_num}; length=16; checksum_in_packet={checksum}; status=NOT_CORRUPT\n"
             log_buffer.append(log_msg)
             flush_log(log_file, log_buffer)
@@ -48,7 +48,7 @@ def flush_log(log_file, log_buffer):
 def main():
     # Read command line arguments
     receiver_ip = "127.0.0.1"  # For testing on localhost
-    receiver_port = 65535
+    receiver_port = 13452
     window_size = 10
     input_file = "1MB.txt"
     log_file = "sender-log.txt"
@@ -68,11 +68,12 @@ def main():
 
     try:
         # Start sender logic
-        window_base = 0
         next_seq_number = 0
-        while window_base < len(lines):
+        while next_seq_number < len(lines):
             lock.acquire()
-            while next_seq_number < window_base + window_size and next_seq_number < len(lines):
+            for i in range(window_size):
+                if next_seq_number >= len(lines):
+                    break
                 packet = create_packet(0, next_seq_number, lines[next_seq_number].encode())  # Encode to bytes
                 unreliable_channel.send_packet(client_socket, packet, (receiver_ip, receiver_port))
                 print(f"Sent packet; seqNum={next_seq_number}")

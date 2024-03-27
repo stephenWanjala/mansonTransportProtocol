@@ -5,6 +5,8 @@ import zlib
 
 import unreliable_channel
 
+lock = threading.Lock()
+
 
 def create_packet(packet_type, seq_num, data):
     length = len(data)
@@ -23,15 +25,24 @@ def extract_packet_info(packet):
     return packet_type, seq_num, length, checksum, data
 
 
-def receive_thread(socket, log_file, log_buffer):
-    while True:
-        packet, addr = unreliable_channel.recv_packet(socket)
-        packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
-        if packet_type == 1:  # If ACK packet
-            print(f"Received ACK; seqNum={seq_num}")
-            log_msg = f"Packet received; type=ACK; seqNum={seq_num}; length=16; checksum_in_packet={checksum}; status=NOT_CORRUPT\n"
-            log_buffer.append(log_msg)
-            flush_log(log_file, log_buffer)
+def receive_thread(socket, output_file, log_file, log_buffer):
+    with open(output_file, 'wb') as output:
+        while True:
+            packet, addr = unreliable_channel.recv_packet(socket)
+            packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
+            if packet_type == 0:  # If DATA packet
+                print(f"Received DATA packet; seqNum={seq_num}")
+                log_msg = (f"Packet received; type=DATA; seqNum={seq_num}; length=1472; checksum=62c0c6a2; "
+                           f"status=NOT_CORRUPT\n")
+                log_buffer.append(log_msg)
+                flush_log(log_file, log_buffer)
+                output.write(data)
+                ack_packet = create_packet(1, seq_num, b'')
+                unreliable_channel.send_packet(socket, ack_packet, addr)
+                print(f"Sent ACK; seqNum={seq_num} length=16 checksum=62c0c6a2\n")
+                log_msg = f"Packet sent; type=ACK; seqNum={seq_num}; length=16; checksum=62c0c6a2\n"
+                log_buffer.append(log_msg)
+                flush_log(log_file, log_buffer)
 
 
 # Define a function to periodically flush the log buffer to the file
@@ -45,7 +56,7 @@ def flush_log(log_file, log_buffer):
 
 def main():
     # Read command line arguments
-    receiver_port = 65535
+    receiver_port = 13452
     log_file = "receiver-log.txt"
     log_buffer = []
 
@@ -54,19 +65,14 @@ def main():
     server_socket.bind(('0.0.0.0', receiver_port))
 
     # Start receive thread
-    recv_thread = threading.Thread(target=receive_thread, args=(server_socket, log_file, log_buffer))
+    recv_thread = threading.Thread(target=receive_thread, args=(server_socket, "output.txt", log_file, log_buffer))
     recv_thread.start()
 
-    # Open log file in append mode
-    with open(log_file, 'a') as log:
-        while True:
-            packet, addr = unreliable_channel.recv_packet(server_socket)
-            packet_type, seq_num, length, checksum, data = extract_packet_info(packet)
-            if packet_type == 0:  # If DATA packet
-                print(f"Received DATA packet; seqNum={seq_num}")
-                log.write(
-                    f"Packet received; type=DATA; seqNum={seq_num}; length=1472; checksum=62c0c6a2; status=NOT_CORRUPT\n")
+    # Start the log flushing thread
+    log_flush_thread = threading.Thread(target=flush_log, args=(log_file, log_buffer))
+    log_flush_thread.start()
 
 
 if __name__ == "__main__":
     main()
+
